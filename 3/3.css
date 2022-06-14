@@ -1,0 +1,57 @@
+h1, h2, h3, nav, footer 
+{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body
+{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: rgb(247, 202, 201);
+}
+h1{font-size: 1.5rem;}
+h2{font-size: 0.75rem;}
+h3
+{
+    font-size: 20px;
+    border-bottom: solid 1pt rgb(153, 153, 153);
+    margin: 0 0 0.5em 0;
+}
+footer
+{
+    font-size: .875rem;
+}
+
+a:link
+{
+    font-weight: bold;
+    color: rgb(71, 179, 215);
+}
+a:visited
+{
+    color: rgb(0,0,0);
+}
+a:hover {
+    background-color: rgb(255,255,204);
+}
+/*mainly styling*/
+hgroup, footer
+{    
+    color: white;
+    background-color:#f7786b;
+    margin-top: 0em;
+    margin-right: 4em;
+    margin-bottom: 0.5em;
+    margin-left: 4em;
+    padding: 1em;
+}
+
+/*I wanted a different background, So I changed it to white*/
+section
+{
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    padding: 0.5em;
+}

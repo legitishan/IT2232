@@ -1,0 +1,13 @@
+td {
+  border: 1px solid;
+  font-style: italic;
+}
+caption
+{
+    font-size: 200%;
+    background-color: rgb(66, 196, 219);
+}
+tr
+{
+	background-color: rgb(150, 202, 212);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+            <title>5</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="5.css">
+    </head>
+    
+    <body>
+        <script src="validation.js"></script>
+        <form>
+            <fieldset>
+                <legend>Photo Details</legend>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                            <label>Title</label><br>
+                            <input type="text" name="title" size="80">
+                            </p>
+                            <p>
+                            <label>Description</label><br/>
+                            <textarea name="description" rows="7" cols="60">
+                            </textarea>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <p>
+                            <label>Continent</label><br>
+                            <select name="continent">
+                                <option>Choose continent</option>
+                                <option>Africa</option>
+                                <option>Asia</option>
+                                <option>Australia</option>
+                            </select>
+                            </p>
+                            
+                            <p>
+                            <label>Country</label><br>
+                            <select name="country">
+                                <option>Choose country</option>
+                                <option>India</option>
+                                <option>Australia</option>
+                                <option>South Africa</option>
+                            </select>
+                            </p>
+                            <p>
+                            <label>City</label><br>
+                            <input type="text" name="city" list="cities"  size="45">
+                                <datalist id="cities">
+                                    <option>Delhi</option>
+                                    <option>Adelaide</option>
+                                    <option>Perth</option>
+                                    <option>Johannesburg</option>
+                                </datalist>
+                                </p>
+                                </td>
+                        
+                        <td>
+                            <div class="right">
+                                <label>Copyright? </label><br>
+                                <input type="radio" name="copyright">All rights reserved<br>
+                                <input type="radio" name="copyright">Creative Commons<br>
+                            </div>
+                            
+                            <div class="right">
+                                <label>Creative Commons Types </label><br>
+                                <input type="checkbox"  >Attribution<br>
+                                <input type="checkbox" >Noncommercial <br>
+                                <input type="checkbox" >No Derivative Works <br>
+                                <input type="checkbox" >Share Alike
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2">
+                            <div class="software"> 
+                                <label>I accept the software license</label>
+                                <input type="checkbox" name="accept">
+                                    </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <p>
+                            <label>Rate this photo: <br>
+                                <input type="number" min="1" max="5" name="rate" >  
+                            </label>
+                            </p>                  
+                            <p>
+                            <label>Color Collection: <br>
+                                <input type="color"  name="color">   
+                            </label>
+                            </p>                  
+                        </td>
+                        <td>
+                            <div class="right">
+                                <p>
+                                    <label>Date Taken: <br>
+                                        <input type="date"  name="date">   
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>Time Taken: <br>
+                                        <input type="time"  name="time">   
+                                    </label>
+                                </p>                  
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="center"> 
+                                <input type="submit" class="round">
+                                <input type="reset" value="Clear Form" class="round">      
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>30
+        </form>
+    </body>
+</html>
